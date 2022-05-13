@@ -14,7 +14,8 @@ body{
     background-image: linear-gradient(to left top, #a9a9a9, #7f7d8c, #57536f, #312c52, #090537);
 }
 .conteiner{
-    width: 50%;
+    width: 100%;
+    height: 50%;
     border-radius: 10px;
     flex-direction: column;
     display:flex;
@@ -29,7 +30,6 @@ body{
     padding: 5px 15px;
     border-radius: 10px;
     border: 3px solid #5ddcff;
-    
 }
 .bnt:hover{
     animation: pulsate 1s ease-in-out; 
