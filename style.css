@@ -27,8 +27,7 @@ body{
     color:#090537;
     background-image: linear-gradient(to left top, #a9a9a9, #7f7d8c, #57536f, #312c52, #090537);
     padding: 5px 15px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
 .bnt:hover{
     animation: pulsate 1s ease-in-out; 
