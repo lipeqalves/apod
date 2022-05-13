@@ -30,7 +30,7 @@ function buscaObjeto(result){    //faz a busca das propriedades do personagem
      textoApod.textContent = `${result.explanation}`
      img.src = `${result.url}`;
      img.style.width = "50%";
-     //img.style.height = "80%";
+     img.style.height = "50%";
      divImg.appendChild(img);   
 }
 //https://api.nasa.gov/planetary/apod?api_key=Tq28PcxpwMdCgRkIdQfMQpp2VeQJ6EYJZilIxfDE
