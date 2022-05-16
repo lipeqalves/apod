@@ -11,7 +11,6 @@ escolheDate.addEventListener("click",function(e){
     //console.log(req);
     requisicao(req);
 })
-
 function requisicao(urls){ // faz a requisição
     $.ajax({
         method: "GET",
@@ -21,6 +20,10 @@ function requisicao(urls){ // faz a requisição
         success:function(result){
             //console.log(result);
             buscaObjeto(result);
+        },
+        error: function(err) {
+          // cenário de error
+          alert("data não encontrada");
         }
       });
 }

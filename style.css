@@ -1,9 +1,14 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 body{
-    margin-top: 1%;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,19 +20,19 @@ body{
 }
 .conteiner{
     width: 80%;
-    padding-bottom: 10px;
     flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center; 
 }
+
 .bnt{
     display:inline-block;
-    margin-top:10px;
+    margin-top:1rem;
     color:#090537;
     background-image: linear-gradient(to left top, #a9a9a9, #7f7d8c, #57536f, #312c52, #090537);
-    padding: 5px 15px;
-    border-radius: 10px; 
+    padding: .5rem 1.5rem;
+    border-radius: 1rem; 
 }
 .bnt:hover{
     animation: pulsate 1s ease-in-out; 
@@ -39,8 +44,12 @@ body{
     }
 }
 #bntDate{
-    margin-bottom:10px;
+    margin-bottom:1rem;
 }
-#texto{
+#texto {
+    margin-top:1rem;
     text-align: center;
+}
+#titulo{
+    margin-bottom:1rem;
 }
